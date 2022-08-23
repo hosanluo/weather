@@ -4,7 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hosanluo\\Weather\\": "src/"
+            "Hosanluo\\Weather\\": "src/",
+            "Hosanluo\\Weather\\Test\\": "tests/"
         }
     },
     "autoload-dev": {
