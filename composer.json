@@ -1,0 +1,33 @@
+{
+    "name": "hosanluo/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hosanluo\\Weather\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hosanluo\\Weather\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "michael",
+            "email": "hosanluo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^6.2 || ^7.0",
+        "pimple/pimple": "^3.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "mikey179/vfsstream": "^1.6",
+        "mockery/mockery": "^1.2.3",
+        "phpstan/phpstan": "^0.12.0",
+        "phpunit/phpunit": "^7.5"
+    }
+}
